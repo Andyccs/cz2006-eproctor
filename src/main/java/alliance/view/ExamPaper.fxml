@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane maxWidth="1.7976931348623157E308" prefHeight="600.0" prefWidth="924.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+          <center>
+            <ScrollPane fx:id="Scroll">
+              <content>
+                <VBox fx:id="ExamArea" />
+              </content>
+<BorderPane.margin>
+<Insets />
+</BorderPane.margin>
+            </ScrollPane>
+          </center>
+<left>
+        <VBox prefHeight="200.0" prefWidth="227.0" BorderPane.alignment="CENTER">
+          <children>
+            <Label fx:id="TimeLeft" alignment="CENTER" contentDisplay="CENTER" prefHeight="40.0" prefWidth="227.0" text="Time" textAlignment="CENTER" textFill="#fff966">
+              <font>
+                <Font size="36.0" />
+              </font>
+            </Label>
+            <Button fx:id="Submit" mnemonicParsing="false" prefHeight="40.0" prefWidth="217.0" text="Submit">
+<VBox.margin>
+<Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+</VBox.margin></Button>
+            <Button fx:id="Forfeit" mnemonicParsing="false" prefHeight="40.0" prefWidth="217.0" text="Forfeit">
+<VBox.margin>
+<Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+</VBox.margin></Button>
+          </children>
+        </VBox>
+</left>
+        </BorderPane>

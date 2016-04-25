@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+	<paper>
+		<id>0981095423</id>
+		<course>CZ2007</course>
+		<question number = '1'>
+			<content>Lee's parents emigrated from China. They have five children. The first four are named La, Le, Li, and Lo. What did they name the fifth? </content>
+			<img></img>
+			<a>Lala</a>
+			<b>Lu </b>
+			<c>Lee </c>
+			<d>Susan </d>
+		</question>
+		<question number = '2'>
+			<content> A red house is made from red bricks, a blue house is made from blue bricks, a pink house is made from pink bricks, and a black house is made from black bricks. What is a greenhouse made from?</content>
+			<img></img>
+			<a>Wood </a>
+			<b>Green Bricks</b>
+			<c>Moss-covered stones</c>
+			<d>Glass </d>
+		</question>
+		<question number = '3'>
+			<content>The Spanish Civil War, which began July 17 of 1936, was fought between:</content>
+			<img></img>
+			<a>Spain and Germany</a>
+			<b>Mexico and the United States</b>
+			<c>Spain and Italy</c>
+			<d>None of the above </d>
+		</question>
+		<question number = '4'>
+			<content>You're the pilot of an airplane that travels from New York to Chicago - a distance of 800 miles. The plane travels at 200 MPH and makes one stop for 30 minutes. What is the pilot's name? </content>
+			<img></img>
+			<a>Necessary information is missing.</a>
+			<b>You can't tell from the question. </b>
+			<c>Both a and b. </c>
+			<d>You can tell from the question. </d>
+		</question>
+		<question number = '5'>
+			<content>Extra </content>
+			<img></img>
+			<a>Hahaha</a>
+			<b>blablablabla </b>
+			<c>kukuku </c>
+			<d>lalababa </d>
+		</question>
+	</paper>

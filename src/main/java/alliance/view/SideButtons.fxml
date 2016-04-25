@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane prefHeight="1000.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+  <!-- TODO Add Nodes -->
+  <left>
+    <VBox fx:id="sideBar" prefWidth="227.0">
+      <children><VBox prefWidth="227.0">
+<children><Label alignment="CENTER" prefWidth="227.0" text="EProctor">
+<font>
+<Font size="36.0" />
+</font></Label>
+        <Button mnemonicParsing="false" onAction="#handleHomeButton" prefHeight="40.0" prefWidth="217.0" text="Home">
+<VBox.margin>
+<Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+</VBox.margin></Button>
+        <Button mnemonicParsing="false" onAction="#handleBookingExam" prefHeight="40.0" prefWidth="217.0" text="Book Your Examination">
+<VBox.margin>
+<Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+</VBox.margin></Button>
+        <Button mnemonicParsing="false" onAction="#handleCheckSchedule" prefHeight="40.0" prefWidth="217.0" text="Check Schedule">
+<VBox.margin>
+<Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+</VBox.margin></Button><Button mnemonicParsing="false" onAction="#handleTakeExamination" prefHeight="40.0" prefWidth="217.0" text="Take Examination">
+<VBox.margin>
+<Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+</VBox.margin></Button>
+        <Button mnemonicParsing="false" onAction="#handleQuit" prefHeight="40.0" prefWidth="217.0" text="Quit">
+<VBox.margin>
+<Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+</VBox.margin></Button>
+</children></VBox><AnchorPane prefWidth="227.0">
+<children><TableView fx:id="courseTable" prefHeight="200.0" prefWidth="217.0" styleClass="TableFormat.css" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="5.0">
+  <columns>
+    <TableColumn fx:id="courseCodeColumn" editable="false" prefWidth="76.0" resizable="false" sortable="false" text="Course" />
+    <TableColumn fx:id="timeRemainingColumn" editable="false" minWidth="0.0" prefWidth="140.0" resizable="false" sortable="false" text="Time Remaining" />
+  </columns>
+<columnResizePolicy>
+<TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+</columnResizePolicy>
+</TableView>
+</children></AnchorPane>
+      </children>
+    </VBox>
+  </left>
+</BorderPane>

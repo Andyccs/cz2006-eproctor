@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="800.0" prefWidth="1100.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+<children><Label layoutX="30.0" layoutY="24.0" style="-fx-font-weight: bold; -fx-font-size: 50;" text="Take Examination" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="24.0" /><Label fx:id="DateNow" layoutX="718.0" layoutY="68.0" text="Date Now" AnchorPane.rightAnchor="26.0" AnchorPane.topAnchor="68.0" /><Label fx:id="TimeNow" layoutX="717.0" layoutY="30.0" text="Time Now" AnchorPane.rightAnchor="26.0" AnchorPane.topAnchor="30.0" /><TableView fx:id="courseTable" layoutX="30.0" layoutY="130.0" prefHeight="330.0" prefWidth="707.0" AnchorPane.leftAnchor="80.0" AnchorPane.topAnchor="130.0">
+  <columns>
+    <TableColumn fx:id="courseCodeColumn" editable="false" prefWidth="109.0" sortable="false" text="Course Code" /><TableColumn fx:id="nameColumn" editable="false" minWidth="0.0" prefWidth="269.0" sortable="false" text="Course Name" /><TableColumn fx:id="dateColumn" editable="false" minWidth="0.0" prefWidth="138.0" sortable="false" text="Date" />
+    <TableColumn fx:id="timeColumn" editable="false" minWidth="0.0" prefWidth="191.0" sortable="false" text="Time" />
+  </columns>
+</TableView><ComboBox fx:id="courseCodeList" layoutX="666.0" layoutY="488.0" prefHeight="31.0" prefWidth="330.0" AnchorPane.leftAnchor="250.0" AnchorPane.topAnchor="500.0" /><Label layoutX="80.0" layoutY="528.0" text="Course Code: " AnchorPane.leftAnchor="80.0" AnchorPane.topAnchor="500.0">
+<font>
+<Font size="15.0" />
+</font>
+</Label><Label fx:id="ExamStatus" layoutX="607.0" layoutY="226.0" prefHeight="21.0" prefWidth="322.0" AnchorPane.rightAnchor="171.0" AnchorPane.topAnchor="226.0" /><Button layoutX="487.0" layoutY="546.0" mnemonicParsing="false" onAction="#handleTakeExamButton" prefHeight="31.0" prefWidth="173.0" text="Take Exam Now" AnchorPane.leftAnchor="80.0" AnchorPane.topAnchor="550.0" />
+</children></AnchorPane>

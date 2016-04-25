@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="600.0" prefWidth="797.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+<children><Label layoutX="31.0" layoutY="24.0" style="-fx-font-size: 50; -fx-font-weight: bold;" text="Announcement" AnchorPane.leftAnchor="31.0" AnchorPane.topAnchor="24.0" />
+<Label fx:id="TimeNow" layoutX="717.0" layoutY="30.0" text="Time Now" AnchorPane.rightAnchor="26.0" AnchorPane.topAnchor="30.0" />
+<Label fx:id="DateNow" layoutX="718.0" layoutY="68.0" text="Date Now" AnchorPane.rightAnchor="26.0" AnchorPane.topAnchor="68.0" />
+<VBox fx:id="an" layoutY="130.0" prefHeight="499.0" prefWidth="797.0" AnchorPane.topAnchor="130.0" />
+</children></AnchorPane>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.collections.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<StackPane prefHeight="328.0" prefWidth="568.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
+  <children>
+    <AnchorPane id="login" prefHeight="328.0" prefWidth="563.0">
+      <children>
+        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="109.0" layoutY="65.0" style="&#10;-fx-font-size: 20;&#10;" text="WELCOME TO E-PROCTOR SYSTEM" textAlignment="CENTER">
+          <font>
+            <Font name="Tahoma" size="12.0" />
+          </font>
+        </Label>
+        <Label layoutX="109.0" layoutY="126.0" text="User Name:" textAlignment="LEFT" />
+        <TextField fx:id="username" layoutX="216.0" layoutY="123.0" prefWidth="200.0" />
+        <Label layoutX="109.0" layoutY="157.0" text="Password: " textAlignment="LEFT" />
+        <PasswordField fx:id="password" layoutX="216.0" layoutY="154.0" prefWidth="200.0" />
+        <Label layoutX="109.0" layoutY="192.0" text="Domain:" textAlignment="LEFT" />
+        <ComboBox fx:id="domain" layoutX="216.0" layoutY="190.0" value="STUDENT">
+          <items>
+            <FXCollections fx:factory="observableArrayList">
+              <String fx:value="STUDENT" />
+              <String fx:value="INVIGILATOR" />
+              <String fx:value="ADMINISTRATOR" />
+            </FXCollections>
+          </items>
+        </ComboBox>
+        <Button fx:id="login" layoutX="132.0" layoutY="253.0" mnemonicParsing="false" prefWidth="130.0" text="Login" />
+        <Button fx:id="quit" layoutX="281.0" layoutY="253.0" mnemonicParsing="false" prefWidth="130.0" text="Exit Application" />
+        <Label fx:id="actiontarget" alignment="CENTER" contentDisplay="CENTER" layoutX="132.0" layoutY="225.0" prefWidth="279.0" text="" textAlignment="CENTER" textFill="RED" />
+      </children>
+    </AnchorPane>
+  </children>
+</StackPane>

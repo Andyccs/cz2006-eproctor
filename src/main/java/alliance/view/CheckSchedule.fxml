@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.collections.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import alliance.javafx.*?>
+
+<AnchorPane prefHeight="800.0" prefWidth="1100.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+  <children>
+        <TableView fx:id="courseDetails" layoutX="81.0" layoutY="125.0" prefHeight="358.0" prefWidth="940.0" AnchorPane.leftAnchor="80.0" AnchorPane.rightAnchor="80.0" AnchorPane.topAnchor="130.0">
+          <columns>
+            <PTableColumn fx:id="courseCodeColumn" editable="false" percentageWidth="0.1" resizable="false" sortable="false" text="Course Code" />
+            <PTableColumn fx:id="courseNameColumn" editable="false" percentageWidth="0.2" resizable="false" sortable="false" text="Course Name" />
+            <PTableColumn fx:id="courseDescriptionColumn" editable="false" percentageWidth="0.3" resizable="false" sortable="false" text="Course Description" />
+            <PTableColumn fx:id="courseDateColumn" editable="false" percentageWidth="0.1" resizable="false" sortable="false" text="Date" />
+            <PTableColumn fx:id="courseTimeslotColumn" editable="false" percentageWidth="0.1" resizable="false" sortable="false" text="Time Slot" />
+            <PTableColumn fx:id="courseDurationColumn" editable="false" percentageWidth="0.1" resizable="false" sortable="false" text="Duration" />
+            <PTableColumn fx:id="courseFormatColumn" editable="false" percentageWidth="0.1" resizable="false" sortable="false" text="Format" />
+          </columns>
+          <columnResizePolicy>
+			<TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+		  </columnResizePolicy>
+        </TableView>
+        <Label fx:id="TimeNow" layoutX="717.0" layoutY="30.0" text="Time Now" AnchorPane.rightAnchor="26.0" AnchorPane.topAnchor="30.0" />
+        <Label fx:id="DateNow" layoutX="718.0" layoutY="68.0" text="Date Now" AnchorPane.rightAnchor="26.0" AnchorPane.topAnchor="68.0" />
+        <Label layoutX="30.0" layoutY="24.0" style="-fx-font-weight: bold; -fx-font-size: 50;" text="Check Schedule" AnchorPane.leftAnchor="31.0" AnchorPane.topAnchor="24.0" />
+  </children>
+</AnchorPane>

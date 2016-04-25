@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<GridPane prefHeight="800.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+<children>
+<Label fx:id="courseCode" text="Label" AnchorPane.leftAnchor="100.0" AnchorPane.topAnchor="10.0" GridPane.columnIndex="1">
+<font>
+<Font size="29.0" />
+</font>
+<GridPane.margin>
+<Insets bottom="5.0" left="5.0" right="5.0" top="20.0" />
+</GridPane.margin>
+</Label>
+<ImageView id="smiley2" fx:id="invigilatorVideo" fitHeight="480.0" fitWidth="640.0" pickOnBounds="true" BorderPane.alignment="CENTER" GridPane.columnIndex="1" GridPane.halignment="LEFT" GridPane.rowIndex="2" GridPane.valignment="TOP" />
+<ImageView id="smiley2" fx:id="studentVideo" fitHeight="120.0" fitWidth="160.0" pickOnBounds="true" BorderPane.alignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="2" GridPane.valignment="TOP" /><TextArea editable="false" text="Please Read Carefully&#10;1. This paper contains 50 questions&#10;2. Answer ALL questions&#10;3. This is a closed book examination. Any attempt to cheat will result in disqualification&#10;4. Students caught cheating will be failed and are liable to expulsion" GridPane.columnIndex="1" GridPane.rowIndex="3">
+<GridPane.margin>
+<Insets bottom="10.0" top="10.0" />
+</GridPane.margin></TextArea>
+<Button fx:id="proceed" mnemonicParsing="false" text="Proceed" GridPane.columnIndex="1" GridPane.rowIndex="4">
+<GridPane.margin>
+<Insets bottom="20.0" />
+</GridPane.margin></Button>
+<Label text="Please produce your identification card or matriculation card for verification." GridPane.columnIndex="1" GridPane.rowIndex="1">
+<font>
+<Font size="15.0" />
+</font>
+</Label>
+</children>
+<columnConstraints>
+<ColumnConstraints hgrow="SOMETIMES" percentWidth="3.0" />
+<ColumnConstraints percentWidth="94.0" />
+<ColumnConstraints percentWidth="3.0" />
+</columnConstraints>
+<rowConstraints>
+<RowConstraints minHeight="10.0" percentHeight="5.0" prefHeight="30.0" vgrow="SOMETIMES" />
+<RowConstraints minHeight="10.0" percentHeight="5.0" prefHeight="30.0" vgrow="SOMETIMES" />
+<RowConstraints minHeight="10.0" percentHeight="65.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+<RowConstraints percentHeight="20.0" />
+<RowConstraints percentHeight="5.0" />
+<RowConstraints />
+</rowConstraints>
+</GridPane>
